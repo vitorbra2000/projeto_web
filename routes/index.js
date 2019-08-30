@@ -12,6 +12,11 @@ router.get('/', function(req, res, next) {
 
 router.get('/posts/:postId', function(req, res, next){
   var postId = req.params.postId;
+  
+  var posts = postsService.getPosts();
+  
+  var post = posts.filter((post) => post.id == postId)[0];
 
+    res.render('post',{title: post.title, post: post});
 });
 module.exports = router;
