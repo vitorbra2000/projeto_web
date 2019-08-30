@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
   var posts = postsService.getPosts();
    
 
-  res.render('index',{title: 'Blog', post: posts});
+  res.render('index',{title: 'Blog', posts: posts});
 });
 
 module.exports = router;
