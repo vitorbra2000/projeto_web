@@ -3,17 +3,24 @@ var getPosts = function() {
     var posts = [
         {
             id: 1,
-            title: 'Post 1',
+            title: 'Panqueca Americana',
             image: 'post1.jpg',
-            description: 'meu primeiro post',
-            body:'meu primeiro post bla bla bla'
+            description: 'Ingredientes e Preparo de uma Panqueca Americana',
+            body:'Criar uma Lista de ingredientes'
         },
         {
             id: 2,
-            title: 'Post 2',
+            title: 'Pettit Gateau',
             image: 'post2.jpg',
-            description: 'meu segundo post',
-            body:'meu segundo post bla bla bla'
+            description: 'Ingredientes e Preparo de um Pettit Gateau',
+            body:'Criar uma lista de ingredientes ',
+        },
+        {
+            id: 3,
+            title: 'Sistema Automatico de posts',
+            image: 'maquina.jpg',
+            description: 'novo sistema do blog',
+            body:'Sistema de ingredientes',
         },
     ];
 

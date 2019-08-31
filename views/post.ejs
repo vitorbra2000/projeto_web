@@ -11,8 +11,8 @@
     
     <div class="container">
       <div class="row">
-        <div class="post.detail">
-            <img src="/imagens/<%= post.image %>" />
+        <div class="post-detail mx-auto my-2">
+            <img src="<%= `/images/${post.image}` %>" />
             <h1><%= post.title %></h1>
             <p><%= post.body %></p>      
         </div>

@@ -7,3 +7,21 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
+.post-detail{
+    color: rgb(0, 0, 0);
+    background-image: url('../../images/cozinhapaper3.jpg');
+    background-attachment: fixed;
+    background-size: 40%;
+    background-repeat: unset;
+    background-color: rgba(71, 52, 0, 0.589); 
+    text-align: center;      
+}
+
+.post-detail > img{
+    width: 800px;
+    height: 480px;    
+    }
+.card-body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}

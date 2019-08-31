@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
   res.render('index',{title: 'Blog', posts: posts});
 });
 
-router.get('/posts/:postId', function(req, res, next){
+router.get('/post/:postId', function(req, res, next){
   var postId = req.params.postId;
   
   var posts = postsService.getPosts();
