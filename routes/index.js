@@ -19,4 +19,13 @@ router.get('/post/:postId', function(req, res, next){
 
     res.render('post',{title: post.title, post: post});
 });
+// Rotas de Listagem
+
+router.get("/posts", function(req, res, next) {
+  var posts = postsService.getPosts();
+
+  res.render("post", { title: "Posts", posts: posts });
+});
+
 module.exports = router;
+
