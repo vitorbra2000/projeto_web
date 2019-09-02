@@ -24,7 +24,7 @@ router.get('/post/:postId', function(req, res, next){
 router.get("/posts", function(req, res, next) {
   var posts = postsService.getPosts();
 
-  res.render("post", { title: "Posts", posts: posts });
+  res.render("posts", { title: "Posts", posts: posts });
 });
 
 module.exports = router;
