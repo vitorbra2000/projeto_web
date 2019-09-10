@@ -29,6 +29,48 @@ var getPosts = function() {
             description: 'novo sistema do blog',
             body:'Sistema de ingredientes',
         },
+        {
+            id: 5,
+            title: 'Sistema Automatico de posts',
+            image: 'maquina.jpg',
+            description: 'novo sistema do blog',
+            body:'Sistema de ingredientes',
+        },
+        {
+            id: 6,
+            title: 'Sistema Automatico de posts',
+            image: 'maquina.jpg',
+            description: 'novo sistema do blog',
+            body:'Sistema de ingredientes',
+        },
+        {
+            id: 7,
+            title: 'Sistema Automatico de posts',
+            image: 'maquina.jpg',
+            description: 'novo sistema do blog',
+            body:'Sistema de ingredientes',
+        },
+        {
+            id: 8,
+            title: 'Sistema Automatico de posts',
+            image: 'maquina.jpg',
+            description: 'novo sistema do blog',
+            body:'Sistema de ingredientes',
+        },
+        {
+            id: 9,
+            title: 'Sistema Automatico de posts',
+            image: 'maquina.jpg',
+            description: 'novo sistema do blog',
+            body:'Sistema de ingredientes',
+        },
+        {
+            id: 10,
+            title: 'Sistema Automatico de posts',
+            image: 'maquina.jpg',
+            description: 'novo sistema do blog',
+            body:'Sistema de ingredientes',
+        },
     ];
 
     return posts;
