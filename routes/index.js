@@ -26,6 +26,12 @@ router.get("/posts", function(req, res, next) {
 
   res.render("posts", { title: "Posts", posts: posts });
 });
+//posts rota
 
+router.get("/projects", function(req, res, next) {
+  var projects = projectsService.getProjects();
+
+  res.render("projects", { title: "Projects", projects: projects });
+});
 module.exports = router;
 
