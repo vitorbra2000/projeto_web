@@ -4,7 +4,7 @@ var testimunialsService = require('../services/testimonialsService');
 
 
 router.get('/', function(req, res, next){
-    var testimunials = testimunialsService.getTestimonials();
+    var testimonials = testimunialsService.getTestimonials();
 
     var viewData = {
         title: 'Depoimentos',
