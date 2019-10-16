@@ -5,15 +5,15 @@ var getTestimonials = function() {
             name: 'fulano de tal',
             company: 'catolicasc',
             title: 'cara da TI',
-            testimony: 'eu gosto muito de javascript'
+            testimony: 'eu gosto muito de javascript',
 
-        }
+        },
         {
             id: 2,
             name: 'joaozinho',
             company: 'catolicasc',
             title: 'cara da secretaria',
-            testimony: 'eu tb gosto muito de javascript'
+            testimony: 'eu tb gosto muito de javascript',
             
         }
 
@@ -22,5 +22,5 @@ var getTestimonials = function() {
     return testimonials;
 }
 module.exports = {
-    getPosts: getPosts
+    getTestimonials: getTestimonials
 }

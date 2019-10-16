@@ -4,11 +4,13 @@ var testimunialsService = require('../services/testimonialsService');
 
 
 router.get('/', function(req, res, next){
-    var testimunialsService = testimunialsService.getTestimonials();
+    var testimunials = testimunialsService.getTestimonials();
 
     var viewData = {
         title: 'Depoimentos',
         testimonials: testimonials
     };
-    res.render('testimonials', )
+    res.render('testimonials', viewData );
 });
+
+module.exports = router;

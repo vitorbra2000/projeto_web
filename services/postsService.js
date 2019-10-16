@@ -77,5 +77,5 @@ var getPosts = function() {
 }
     
 module.exports = {
-    getTestimonials: getTestimonials
+    getPosts: getPosts
 }
