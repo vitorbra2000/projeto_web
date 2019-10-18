@@ -3,70 +3,70 @@
     {
         "id": 1,
         "title":"Panqueca American",
-        "image":"post1.jp",
+        "image":"post1.jpg",
         "description":"Ingredientes e Preparo de uma Panqueca American",
         "body": "Criar uma Lista de ingrediente"
     },
     {
         "id": 2,
         "title":"Pettit Gatea",
-        "image":"post2.jp",
+        "image":"post2.jpg",
         "description":"Ingredientes e Preparo de um Pettit Gatea",
         "body":"Criar uma lista de ingredientes"
     },
     {
         "id": 3,
         "title":"Sistema Automatico de post",
-        "image":"maquina.jp",
+        "image":"maquina.jpg",
         "description":"novo sistema do blo",
         "body":"Sistema de ingrediente"
     },
     {
         "id": 4,
         "title":"Sistema Automatico de post",
-        "image":"maquina.jp",
+        "image":"maquina.jpg",
         "description":"novo sistema do blo",
         "body":"Sistema de ingrediente"
     },
     {
         "id": 5,
         "title":"Sistema Automatico de post",
-        "image":"maquina.jp",
+        "image":"maquina.jpg",
         "description":"novo sistema do blo",
         "body":"Sistema de ingrediente"
     },
     {
         "id": 6,
         "title":"Sistema Automatico de post",
-        "image":"maquina.jp",
+        "image":"maquina.jpg",
         "description":"novo sistema do blo",
         "body":"Sistema de ingrediente"
     },
     {
         "id": 7,
         "title":"Sistema Automatico de post",
-        "image":"maquina.jp",
+        "image":"maquina.jpg",
         "description":"novo sistema do blo",
         "body":"Sistema de ingrediente"
     },
     {
         "id": 8,
         "title":"Sistema Automatico de post",
-        "image":"maquina.jp",
+        "image":"maquina.jpg",
         "description":"novo sistema do blo",
         "body":"Sistema de ingrediente"
     },
     {
         "id": 9,
         "title":"Sistema Automatico de post",
-        "image":"maquina.jp",
+        "image":"maquina.jpg",
         "description":"novo sistema do blo",
         "body":"Sistema de ingrediente"
     },
     {
         "id": 10,
         "title":"Sistema Automatico de post",
-        "image":"maquina.jp",
+        "image":"maquina.jpg",
         "description":"novo sistema do blo",
         "body":"Sistema de ingrediente"
     }
