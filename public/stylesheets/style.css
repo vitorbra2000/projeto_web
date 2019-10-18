@@ -37,3 +37,13 @@ body{
 .container{
     padding: 20px;
 }
+.testimonial-description {
+    display: block;
+}
+.testimony{
+    background-color: pink;
+    text-align: center;
+}
+.container{
+    background-color: rgb(57, 109, 93);
+}

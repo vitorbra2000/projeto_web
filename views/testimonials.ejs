@@ -10,12 +10,16 @@
       <%- include('navbar'); -%>
     
     <div class="container">
-      <div class="row">
-        <% testimonials.forEach((item)=> { %>
-            <div class="row">
-                <h2>
+      <div class="testimony">
+        <% Depoimentos.forEach((item)=> { %>
+            <div>
+                <h2 class="testimonial-description">
                     "<%= item.testimony %>"
                 </h2>
+                <br>
+                <p class="testimonial-info">
+                  <%= item.name %> (<%= item.title %>) - <%= item.company %>
+                </p>
             </div>
         <% }); %>
 

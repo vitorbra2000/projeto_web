@@ -1,14 +1,14 @@
 var express = require('express');
 var router = express.Router();
-var testimunialsService = require('../services/testimonialsService');
+var testimonialsService = require('../services/testimonialsService');
 
 
 router.get('/', function(req, res, next){
-    var testimonials = testimunialsService.getTestimonials();
+    var testimonials = testimonialsService.getTestimonials();
 
     var viewData = {
         title: 'Depoimentos',
-        testimonials: testimonials
+        Depoimentos: testimonials
     };
     res.render('testimonials', viewData );
 });
