@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Posts</title>
-    <%- include('../../imports'); -%>
+  <meta charset="UTF-8">
+  <title>Posts</title>
+  <%- include('../../imports'); -%>
 </head>
-<body>
-    <%- include('../../navbar'); -%>
 
-    <div class="container">
-        <div class="row">
+<body>
+  <%- include('../../navbar'); -%>
+
+  <div class="container">
+      
+      <div class="row">
+        <div class="col-md-12">
           <h1>Novo Post</h1>
         </div>
 
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+              <form action="create" method="Post">
+                <div class="form-group">
+                  <label for="postTitle">título</label>
+                  <input type="text" class="form-control" id="postTitle" placeholder=" titulo do Post">
+                </div>
+                <div class="form-group">
+                  <label for="postImage">Imagem</label>
+                  <input type="text" class="form-control" id="postImage" placeholder=" Imagem do Post">
+                </div>
+                <div class="form-group">
+                  <label for="postDescription">Descrição</label>
+                  <textarea type="text" class="form-control" id="postDescription" placeholder=""></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="postBody">Corpo do Post</label>
+                  <textarea type="text" class="form-control" id="postBody" placeholder=""></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Salvar</button>
+              </form>
+      </div>
+  
+    </div>
 </body>
 </html>

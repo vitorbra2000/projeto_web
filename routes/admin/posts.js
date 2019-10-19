@@ -16,4 +16,11 @@ router.get('/create', function(req, res, next){
 
     res.render('admin/posts/create');
 });
+
+router.post('/create', function(req, res, next){
+    //...
+
+    res.redirect('/admin/posts');
+});
+
 module.exports = router;
