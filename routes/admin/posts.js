@@ -18,7 +18,18 @@ router.get('/create', function(req, res, next){
 });
 
 router.post('/create', function(req, res, next){
-    //...
+    var posts = postsService.getPosts();
+
+    var newId = posts.length + 1;
+
+    var newPost = {};
+    newPost.id = newId;
+    newPost.title = req.body.title;
+    newPost.image = req.body.image;
+    newPost.description = req.body.description;
+    newPost.body = req.body.postBody;
+
+    postsService.savePost(newPost);
 
     res.redirect('/admin/posts');
 });
