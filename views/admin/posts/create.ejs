@@ -18,14 +18,14 @@
       </div>
       <div class="row">
           <div class="col-md-12">
-              <form action="create" method="Post">
+              <form action="create" method="Post" enctype="multipart/form-data">
                 <div class="form-group">
                   <label for="postTitle">título</label>
                   <input name="title" type="text" class="form-control" id="postTitle" placeholder=" titulo do Post">
                 </div>
                 <div class="form-group">
                   <label for="postImage">imagem</label>
-                  <input name="image" type="text" class="form-control" id="postImage" placeholder=" imagem do Post">
+                  <input name="image" type="file" class="form-control" id="postImage" placeholder=" imagem do Post">
                 </div>
                 <div class="form-group">
                   <label for="postDescription">Descrição</label>

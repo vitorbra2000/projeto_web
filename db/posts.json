@@ -40,33 +40,5 @@
         "image": "maquina.jpg",
         "description": "novo sistema do blo",
         "body": "Sistema de ingrediente"
-    },
-    {
-        "id": 7,
-        "title": "Sistema Automatico de post",
-        "image": "maquina.jpg",
-        "description": "novo sistema do blo",
-        "body": "Sistema de ingrediente"
-    },
-    {
-        "id": 8,
-        "title": "Sistema Automatico de post",
-        "image": "maquina.jpg",
-        "description": "novo sistema do blo",
-        "body": "Sistema de ingrediente"
-    },
-    {
-        "id": 9,
-        "title": "Sistema Automatico de post",
-        "image": "maquina.jpg",
-        "description": "novo sistema do blo",
-        "body": "Sistema de ingrediente"
-    },
-    {
-        "id": 10,
-        "title": "Sistema Automatico de post",
-        "image": "maquina.jpg",
-        "description": "novo sistema do blo",
-        "body": "Sistema de ingrediente"
     }
 ]
