@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var testimonialsRouter = require('./routes/testimonials');
 var adminPostsRouter = require('./routes/admin/posts');
+var authRouter =require('./routes/auth');
 
 var app = express();
 
@@ -23,6 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/admin/posts', adminPostsRouter);
+app.use('/auth',authRouter);
 app.use('/users', usersRouter);
 app.use('/testimonials', testimonialsRouter);
 
