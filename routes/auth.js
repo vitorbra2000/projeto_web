@@ -4,7 +4,7 @@ var authService = require('../services/authService');
 
 router.get('/login', function (req, res, next){
 
-    res.render('login', {nsg: ''});
+    res.render('login', {msg: ''});
 });
 
 router.post('/login', function (req, res, next){
