@@ -34,10 +34,10 @@ router.get("/projects", function(req, res, next) {
   res.render("projects", { title: "Projects", projects: projects });
 });
 
-router.get("/compras", function(req, res, next) {
-  var compras = postsService.getPosts();
+router.get("/sensores", function(req, res, next) {
+  var sensores = postsService.getPosts();
 
-  res.render("compras", { title: "compras", compras: compras });
+  res.render("Sensores", { title: "sensores", sensores: sensores });
 });
 // rota compras
 module.exports = router;
